@@ -53,6 +53,10 @@
        //设置图标右上角提醒数字
     localNoti.applicationIconBadgeNumber = 10 ;
     
+    //设置额外内容
+    localNoti.userInfo = @{
+                           @"abc": @"110001"
+                           };
     
     //2. 发送一个本地通知
         //注意：通知是一个应用程序级别的操作
