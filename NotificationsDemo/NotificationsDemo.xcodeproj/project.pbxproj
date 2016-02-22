@@ -16,6 +16,7 @@
 		29701A871C7AB266000DA392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29701A851C7AB266000DA392 /* LaunchScreen.storyboard */; };
 		29701A921C7AB266000DA392 /* NotificationsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29701A911C7AB266000DA392 /* NotificationsDemoTests.m */; };
 		29701A9D1C7AB266000DA392 /* NotificationsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29701A9C1C7AB266000DA392 /* NotificationsDemoUITests.m */; };
+		29701AAB1C7AB97C000DA392 /* buyao.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29701AAA1C7AB97C000DA392 /* buyao.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		29701A981C7AB266000DA392 /* NotificationsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29701A9C1C7AB266000DA392 /* NotificationsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationsDemoUITests.m; sourceTree = "<group>"; };
 		29701A9E1C7AB266000DA392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29701AAA1C7AB97C000DA392 /* buyao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyao.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		29701A741C7AB266000DA392 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				29701AAA1C7AB97C000DA392 /* buyao.wav */,
 				29701A751C7AB266000DA392 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29701A871C7AB266000DA392 /* LaunchScreen.storyboard in Resources */,
+				29701AAB1C7AB97C000DA392 /* buyao.wav in Resources */,
 				29701A841C7AB266000DA392 /* Assets.xcassets in Resources */,
 				29701A7F1C7AB266000DA392 /* Main.storyboard in Resources */,
 			);
